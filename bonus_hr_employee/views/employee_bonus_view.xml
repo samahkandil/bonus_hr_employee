@@ -182,7 +182,7 @@
     </record>
 
     <menuitem id="menu_employee_bonus" name="Bonus" sequence="16" groups="base.group_user"
-                  web_icon="employee_bonus,static/description/icon.png"/>
+                  web_icon="bonus_hr_employee,static/description/icon.png"/>
     <menuitem id="menu_item_employee_bonus" parent="menu_employee_bonus" name="Bonus" sequence="16" groups="base.group_user"/>
     <menuitem id="menu_employee_bonus_action" name="Bonuses" parent="menu_item_employee_bonus" action="action_view_employee_bonus" sequence="0" groups="base.group_user"/>
     <menuitem id="menu_dept_bonus_action" parent="menu_item_employee_bonus" action="action_bonus_department_approve" sequence="0" groups="employee_bonus.group_department_manager_for_bonus"/>
